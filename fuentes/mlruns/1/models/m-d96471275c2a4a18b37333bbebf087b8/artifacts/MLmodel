@@ -1,0 +1,24 @@
+artifact_path: /Users/eduardobarrera/Documents/Master_IA/Gestion_de_proyectos_IA/Actividad_5/Actividad_5_Design-thinking--definiendo-e-ideando_EBM/fuentes/mlruns/1/models/m-d96471275c2a4a18b37333bbebf087b8/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.1
+model_id: m-d96471275c2a4a18b37333bbebf087b8
+model_size_bytes: 16873597
+model_uuid: m-d96471275c2a4a18b37333bbebf087b8
+prompts: null
+run_id: 8eca14a8f49044d2b3e2b71604093095
+utc_time_created: '2026-10-19 03:36:23.698625'
